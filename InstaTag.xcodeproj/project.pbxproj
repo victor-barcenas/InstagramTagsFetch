@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		EC633FB61E443D6300C44AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FB51E443D6300C44AF5 /* AppDelegate.swift */; };
-		EC633FB81E443D6300C44AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FB71E443D6300C44AF5 /* ViewController.swift */; };
+		EC633FB81E443D6300C44AF5 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FB71E443D6300C44AF5 /* Login.swift */; };
 		EC633FBB1E443D6400C44AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC633FB91E443D6400C44AF5 /* Main.storyboard */; };
 		EC633FBE1E443D6400C44AF5 /* InstaTag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC633FBC1E443D6400C44AF5 /* InstaTag.xcdatamodeld */; };
 		EC633FC01E443D6400C44AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC633FBF1E443D6400C44AF5 /* Assets.xcassets */; };
 		EC633FC31E443D6400C44AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC633FC11E443D6400C44AF5 /* LaunchScreen.storyboard */; };
+		EC633FD01E4445C200C44AF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FCF1E4445C200C44AF5 /* Constants.swift */; };
+		EC633FD71E445CBA00C44AF5 /* RESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FD51E445CBA00C44AF5 /* RESTClient.swift */; };
+		EC633FD81E445CBA00C44AF5 /* RESTClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FD61E445CBA00C44AF5 /* RESTClientDelegate.swift */; };
+		EC633FDB1E445E9D00C44AF5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FDA1E445E9D00C44AF5 /* Home.swift */; };
+		EC633FDD1E445EC600C44AF5 /* ZoomedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FDC1E445EC600C44AF5 /* ZoomedImage.swift */; };
+		EC633FE21E445FA400C44AF5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC633FE01E445FA400C44AF5 /* Alamofire.framework */; };
+		EC633FE31E445FA400C44AF5 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC633FE11E445FA400C44AF5 /* AlamofireImage.framework */; };
+		EC633FE61E44617900C44AF5 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FE51E44617900C44AF5 /* ActivityIndicatorView.swift */; };
+		EC633FE81E44628400C44AF5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FE71E44628400C44AF5 /* Helpers.swift */; };
+		EC633FEB1E446C5A00C44AF5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FEA1E446C5A00C44AF5 /* Post.swift */; };
+		EC633FEE1E4472C500C44AF5 /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FED1E4472C500C44AF5 /* ThumbnailCell.swift */; };
+		EC633FF01E4472D600C44AF5 /* StandardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC633FEF1E4472D600C44AF5 /* StandardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC633FB21E443D6300C44AF5 /* InstaTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC633FB51E443D6300C44AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC633FB71E443D6300C44AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC633FB71E443D6300C44AF5 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Login.swift; path = ViewControllers/Login.swift; sourceTree = "<group>"; };
 		EC633FBA1E443D6400C44AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC633FBD1E443D6400C44AF5 /* InstaTag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaTag.xcdatamodel; sourceTree = "<group>"; };
 		EC633FBF1E443D6400C44AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC633FC21E443D6400C44AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC633FC41E443D6400C44AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC633FCF1E4445C200C44AF5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Classes/Constants.swift; sourceTree = "<group>"; };
+		EC633FD51E445CBA00C44AF5 /* RESTClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESTClient.swift; path = Classes/RESTClient.swift; sourceTree = "<group>"; };
+		EC633FD61E445CBA00C44AF5 /* RESTClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESTClientDelegate.swift; path = Classes/RESTClientDelegate.swift; sourceTree = "<group>"; };
+		EC633FDA1E445E9D00C44AF5 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = ViewControllers/Home.swift; sourceTree = "<group>"; };
+		EC633FDC1E445EC600C44AF5 /* ZoomedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomedImage.swift; path = ViewControllers/ZoomedImage.swift; sourceTree = "<group>"; };
+		EC633FE01E445FA400C44AF5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		EC633FE11E445FA400C44AF5 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = "<group>"; };
+		EC633FE51E44617900C44AF5 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorView.swift; path = Classes/ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		EC633FE71E44628400C44AF5 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Helpers/Helpers.swift; sourceTree = "<group>"; };
+		EC633FEA1E446C5A00C44AF5 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Models/Post.swift; sourceTree = "<group>"; };
+		EC633FED1E4472C500C44AF5 /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumbnailCell.swift; path = ViewControllers/ThumbnailCell.swift; sourceTree = "<group>"; };
+		EC633FEF1E4472D600C44AF5 /* StandardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardCell.swift; path = ViewControllers/StandardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC633FE21E445FA400C44AF5 /* Alamofire.framework in Frameworks */,
+				EC633FE31E445FA400C44AF5 /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +82,12 @@
 		EC633FB41E443D6300C44AF5 /* InstaTag */ = {
 			isa = PBXGroup;
 			children = (
+				EC633FE91E446C4300C44AF5 /* Models */,
+				EC633FDF1E445F9300C44AF5 /* Frameworks */,
+				EC633FCE1E44453500C44AF5 /* CustomClasses */,
+				EC633FCC1E44452600C44AF5 /* Helpers */,
+				EC633FCA1E44451400C44AF5 /* ViewControllers */,
 				EC633FB51E443D6300C44AF5 /* AppDelegate.swift */,
-				EC633FB71E443D6300C44AF5 /* ViewController.swift */,
 				EC633FB91E443D6400C44AF5 /* Main.storyboard */,
 				EC633FBF1E443D6400C44AF5 /* Assets.xcassets */,
 				EC633FC11E443D6400C44AF5 /* LaunchScreen.storyboard */,
@@ -65,6 +95,62 @@
 				EC633FBC1E443D6400C44AF5 /* InstaTag.xcdatamodeld */,
 			);
 			path = InstaTag;
+			sourceTree = "<group>";
+		};
+		EC633FCA1E44451400C44AF5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC633FEC1E4472A200C44AF5 /* Home */,
+				EC633FB71E443D6300C44AF5 /* Login.swift */,
+				EC633FDC1E445EC600C44AF5 /* ZoomedImage.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC633FCC1E44452600C44AF5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC633FE71E44628400C44AF5 /* Helpers.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		EC633FCE1E44453500C44AF5 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EC633FE51E44617900C44AF5 /* ActivityIndicatorView.swift */,
+				EC633FCF1E4445C200C44AF5 /* Constants.swift */,
+				EC633FD51E445CBA00C44AF5 /* RESTClient.swift */,
+				EC633FD61E445CBA00C44AF5 /* RESTClientDelegate.swift */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+		EC633FDF1E445F9300C44AF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC633FE01E445FA400C44AF5 /* Alamofire.framework */,
+				EC633FE11E445FA400C44AF5 /* AlamofireImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC633FE91E446C4300C44AF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC633FEA1E446C5A00C44AF5 /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EC633FEC1E4472A200C44AF5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC633FDA1E445E9D00C44AF5 /* Home.swift */,
+				EC633FED1E4472C500C44AF5 /* ThumbnailCell.swift */,
+				EC633FEF1E4472D600C44AF5 /* StandardCell.swift */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +163,7 @@
 				EC633FAE1E443D6300C44AF5 /* Sources */,
 				EC633FAF1E443D6300C44AF5 /* Frameworks */,
 				EC633FB01E443D6300C44AF5 /* Resources */,
+				EC633FE41E445FC200C44AF5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -134,14 +221,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EC633FE41E445FC200C44AF5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC633FAE1E443D6300C44AF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC633FE61E44617900C44AF5 /* ActivityIndicatorView.swift in Sources */,
 				EC633FBE1E443D6400C44AF5 /* InstaTag.xcdatamodeld in Sources */,
-				EC633FB81E443D6300C44AF5 /* ViewController.swift in Sources */,
+				EC633FEB1E446C5A00C44AF5 /* Post.swift in Sources */,
+				EC633FB81E443D6300C44AF5 /* Login.swift in Sources */,
+				EC633FE81E44628400C44AF5 /* Helpers.swift in Sources */,
+				EC633FEE1E4472C500C44AF5 /* ThumbnailCell.swift in Sources */,
+				EC633FDD1E445EC600C44AF5 /* ZoomedImage.swift in Sources */,
 				EC633FB61E443D6300C44AF5 /* AppDelegate.swift in Sources */,
+				EC633FD71E445CBA00C44AF5 /* RESTClient.swift in Sources */,
+				EC633FD01E4445C200C44AF5 /* Constants.swift in Sources */,
+				EC633FDB1E445E9D00C44AF5 /* Home.swift in Sources */,
+				EC633FF01E4472D600C44AF5 /* StandardCell.swift in Sources */,
+				EC633FD81E445CBA00C44AF5 /* RESTClientDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaTag",
+				);
 				INFOPLIST_FILE = InstaTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbarcenas.InstaTag;
@@ -274,6 +393,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaTag",
+				);
 				INFOPLIST_FILE = InstaTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbarcenas.InstaTag;
